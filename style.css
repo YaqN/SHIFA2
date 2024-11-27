@@ -132,27 +132,15 @@ body {
 .container-lum {
     background-color: #FFDFD3;
     padding: 16% 8%;
-    position: relative;
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center align items horizontally */
+    align-items: center; /* Center align items vertically */
+    gap: 20px; /* Space between images */
 }
 
-.bori {
-    height: 400px;
-    width: 400px;
-    margin-left: 70%;
-    
-}
-
-.container-lum video {
-    margin-top: -200px;
-}
-
-.love {
-    height: 150px;
-    width: 400px;
-    position: absolute;
-    left: 37%;
-    top: 40%;
-    transform: rotate(-20deg);
+.img1, .img2, .img3 {
+    height: 300px; /* Adjust height */
+    width: auto; /* Maintain aspect ratio */
 }
 
 .container-lum p {
